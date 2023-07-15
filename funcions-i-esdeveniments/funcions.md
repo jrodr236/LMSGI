@@ -78,9 +78,7 @@ Segons l'àmbit, existeixen dos tipus de variables:
 * Les variables que es declaren sense les paraules clau **`let`** o **`const`** es creen automàticament en l'àmbit **Global.**
   * Això pot portar problemes amb variables que s'estan modificant a llocs inesperats.
 
-{% hint style="danger" %}
-Sempre has de declarar les teves variables amb **`let`** o **`const`**.
-{% endhint %}
+> ❗ Sempre has de declarar les teves variables amb **`let`** o **`const`**.
 
 #### Variables locals
 

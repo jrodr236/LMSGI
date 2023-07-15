@@ -1,14 +1,12 @@
 # Operadors
 
-{% hint style="info" %}
-Els **operadors** permeten **manipular el valor de les variables**, realitzar operacions matemàtiques amb els valors i **comparar** les diferents variables.
-{% endhint %}
+> ℹ️  Els **operadors** permeten **manipular el valor de les variables**, realitzar operacions matemàtiques amb els valors i **comparar** les diferents variables.
+
 
 ### Assignació
 
-{% hint style="info" %}
-L'operador d'**assignació ( `=` )** serveix per emmagatzemar un valor en una variable.
-{% endhint %}
+> ℹ️ L'operador d'**assignació ( `=` )** serveix per emmagatzemar un valor en una variable.
+
 
 Assigna la part de la dreta de l'igual a la part de l'esquerra. A la dreta es col·loquen els valors finals i a l'esquerra generalment es col·loca una variable on volem guardar la dada.
 
@@ -27,9 +25,8 @@ numero1 = numero2;    // Ara, la variable numero1 val 4
 
 ### &#xD;Operadors aritmètics
 
-{% hint style="info" %}
-S'utilitzen per a la realització d'**operacions matemàtiques** simples com la suma, resta o multiplicació.
-{% endhint %}
+> ℹ️ S'utilitzen per a la realització d'**operacions matemàtiques** simples com la suma, resta o multiplicació.
+
 
 Són les següents:
 
@@ -56,9 +53,8 @@ nombre1 %= 4;   // nombre1 = nombre1 % 4 = 1
 
 ### Increment i decrement
 
-{% hint style="info" %}
-S'utilitza per **incrementar** (**`++`**) o **decrementar** (**`--`**) en una unitat el valor d'una variable.
-{% endhint %}
+> ℹ️ S'utilitza per **incrementar** (**`++`**) o **decrementar** (**`--`**) en una unitat el valor d'una variable.
+
 
 Aquests dos operadors només són vàlids per a les variables numèriques.
 
@@ -116,9 +112,8 @@ nombre3 = nombre1++ + nombre2; // nombre3 = 7
 
 ### Operadors lògics
 
-{% hint style="info" %}
-Els **operadors lògics** serveixen per realitzar operacions lògiques, que són aquelles que donen com resultat valor boolèa (**`true`** o **`false`** ).
-{% endhint %}
+> ℹ️ Els **operadors lògics** serveixen per realitzar operacions lògiques, que són aquelles que donen com resultat valor boolèa (**`true`** o **`false`** ).
+
 
 **Operador AND (`&&`)**
 
@@ -136,7 +131,8 @@ resultat = valor1 && valor2; // resultat = true
 
 **Operador OR (`||`)**
 
-El resultat és `true` si algun dels dos operands és `true`.****
+El resultat és `true` si algun dels dos operands és `true`.
+****
 
 ```javascript
 var valor1 = true; 
@@ -196,9 +192,7 @@ let cadena2 = "mundo";
 let cadenaConcatenada = cadena1 + cadena2; //cadena concatenada val "holamundo"
 ```
 
-{% hint style="warning" %}
-&#x20;L'operador **+** serveix per a dos usos diferents. Si els seus operands són números els **suma**, però si es tracta de cadenes les **concatena**.
-{% endhint %}
+> ⚠️ &#x20;L'operador **+** serveix per a dos usos diferents. Si els seus operands són números els **suma**, però si es tracta de cadenes les **concatena**.
 
 Javascript és prou llest per entendre quin tipus d'operació realitzar mitjançant una **comprovació dels tipus** que estan implicats en l'operació.
 
@@ -264,8 +258,7 @@ El que ens dóna com a resultat el valor següent.
 39
 ```
 
-{% hint style="info" %}
-L'**ús dels parèntesis** pot estalviar-nos molts mals de cap i sobretot la necessitat de saber-nos de memòria la taula de precedència dels operadors
-{% endhint %}
+> ℹ️ L'**ús dels parèntesis** pot estalviar-nos molts mals de cap i sobretot la necessitat de saber-nos de memòria la taula de precedència dels operadors
+
 
 Quan veiem poc clar l'ordre amb el qual s'executaran les sentències podem utilitzar-los i així forçar que s'avaluï abans el tros d'expressió que es troba dins dels parèntesis.

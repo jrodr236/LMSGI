@@ -25,9 +25,7 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 { "name":"John" } 
 ```
 
-{% hint style="warning" %}
-Els noms JSON requereixen **cometes dobles.**
-{% endhint %}
+> ⚠️ Els noms JSON requereixen **cometes dobles.**
 
 * Les dades se separen per comes \( **`,`** \)
 

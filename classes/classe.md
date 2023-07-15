@@ -20,6 +20,4 @@ let myCar2 = new Car("Audi", 2019);
 console.log("My car is " + myCar1.age() + " years old.";)
 ```
 
-{% hint style="info" %}
-En el nom de les classes s'utilitza la convenció **UpperCamelCasse**
-{% endhint %}
+> ℹ️ En el nom de les classes s'utilitza la convenció **UpperCamelCasse**

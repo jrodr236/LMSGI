@@ -30,9 +30,8 @@ Com que aquest comportament no causa un error, la cerca i correcció d'errors es
 
 La paraula reservada **`let`** va ser introduïda a **ES6**, una actualització important per JavaScript, per resoldre aquest problema potencial amb la paraula clau var.
 
-{% hint style="info" %}
-És recomanable utilitzar en la decalarició de variables **let**
-{% endhint %}
+> ℹ️ És recomanable utilitzar en la decalarició de variables **let**
+
 
 ### Diferència entre var i let
 
@@ -75,9 +74,7 @@ resultat = numero_1 + numero_2;
 
 Si les variables no estan declarades, JavaScript crea una variable global i assigna el valor corresponent.
 
-{% hint style="danger" %}
-Es recomana i serà necessari **declarar totes les variables** que s'hagin d'utilitzar.
-{% endhint %}
+> ❗ Es recomana i serà necessari **declarar totes les variables** que s'hagin d'utilitzar.
 
 #### Exemple d'ús de variables
 
@@ -89,9 +86,7 @@ Es recomana i serà necessari **declarar totes les variables** que s'hagin d'uti
 
 L'ús de `const` és una bona pràctica per a variables que no canviaran mai el seu valor, facilita el manteniment de l'aplicació i la llegibilitat.
 
-{% hint style="warning" %}
-Les **constants** han de ser declarades i **amb un valor assignat sempre**.
-{% endhint %}
+> ⚠️ Les **constants** han de ser declarades i **amb un valor assignat sempre**.
 
 **Exemple:**
 
@@ -118,9 +113,8 @@ var x = {firstName:"John", lastName:"Doe"};    // Object
 
 
 
-{% hint style="info" %}
-**Els tipus de JavaScript són dinàmics**
-{% endhint %}
+> ℹ️ **Els tipus de JavaScript són dinàmics**
+
 
 Això significa que la mateixa variable es pot utilitzar per contenir diferents tipus de dades:
 
