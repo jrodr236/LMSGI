@@ -1,6 +1,9 @@
 # Llenguatges de marques i sistemes de gestió d'informació
 
-# UF1: programació amb llenguatges de marques
+## UF1: programació amb llenguatges de marques
+
+### Introducció als llenguatges de marques
+* [Introducció als llenguatges de marques](uf1_intro_lm.md)
 
 ### HTML
 * [Llenguatge HTML](uf1_html.md)
@@ -64,13 +67,14 @@
 
 ---
 
-Basat en ell llibres electrònics del Sergi Coll:
-* [Gitbook d'XML](https://github.com/seicoll/gitbook-xml)
-* [Gitbook de JavaScript](https://github.com/seicoll/gitbook-js)
+Basat en:
+* [Gitbook d'XML d'en Sergi Coll](https://github.com/seicoll/gitbook-xml)
+* [Gitbook de JavaScript d'en Sergi Coll](https://github.com/seicoll/gitbook-js)
+* Material del Servidor de Teoria de Llenguatge de Marques d'en Josep Masanas.
 
 ---
 
-Autors: Sergi Coll, Joan Rodríguez Bellido
+Autors: Sergi Coll, Josep Masanas, Joan Rodríguez Bellido
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Aquesta obra està subjecta a una llicència de <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Reconeixement-NoComercial-CompartirIgual 3.0 No adaptada de Creative Commons</a>
 
