@@ -8,12 +8,14 @@
 ### HTML
 * [Llenguatge HTML](uf1_html.md)
 
-<!--
 ### CSS
 * [CSS](uf1_css.md)
 
 ### XML
 * [XML](uf1_xml.md)
+
+<!--
+
 * [Validació amb DTD](uf1_dtd.md)
 * [Validació amb XSD](uf1_xsd.md)
 
@@ -59,10 +61,10 @@
 * [Getters i setters](classes/getters-i-setters.md)
 * [Mòduls: export i import](classes/moduls-export-i-import.md)
 
--->
+
 
 ## UF3: sistemes de gestió d'informació empresarial
-
+-->
 
 
 ---
