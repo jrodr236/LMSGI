@@ -66,7 +66,7 @@ function myFunction() {
 
 ## **En un fitxer extern**
 
-{% code title="index.html" %}
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -86,15 +86,15 @@ function myFunction() {
     </body>
 </html>
 ```
-{% endcode %}
 
-{% code title="myScript.js" %}
+
+_js/_myScript.js_
 ```javascript
 function myFunction() {
     document.getElementById("demo").innerHTML="Paragraph changed.";
 }
 ```
-{% endcode %}
+
 
 **``**[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_whereto\_external)
 
