@@ -15,7 +15,7 @@ Conseqüentment, el **llenguatge HTML** serveix al navegador per mostrar les pà
 **HTML** ha sofert molts canvis al llarg del temps.
   * La versió actual del llenguatge HTML és **HTML5**.
 
-![](/uf1_images/html5.png)
+![logo html5](uf1_images/html5.png)
 
 ### Què és una pàgina web?
 
@@ -39,7 +39,7 @@ Tot el que estigui dintre d'aquesta etiqueta tindrà les modificacions que carac
 
 El resultat serà:
 
-![](/uf1_images/hola.png)
+![](uf1_images/hola.png)
 
 Però tot i que funciona, no és el que busquem, falta especificar molt millor les parts de la pàgina i la sintaxi de les etiquetes.
 
