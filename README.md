@@ -1,6 +1,6 @@
 # Llenguatges de marques i sistemes de gestió d'informació
 
-## UF1+UF2: Programació i àmbits d'aplicació dels llenguatges de marques
+# UF1: programació amb llenguatges de marques
 
 ### HTML
 * [Llenguatge HTML](uf1_html.md)
@@ -13,6 +13,8 @@
 * [XML](uf1_xml.md)
 * [Validació amb DTD](uf1_dtd.md)
 * [Validació amb XSD](uf1_xsd.md)
+
+### UF2: àmbits d'aplicació dels llenguatges de marques
 
 ### JavaScript
 
@@ -56,4 +58,22 @@
 
 -->
 
-## UF3: Sistemes de gestió d'informació empresarial
+## UF3: sistemes de gestió d'informació empresarial
+
+
+
+---
+
+Basat en ell llibres electrònics del Sergi Coll:
+* [Gitbook d'XML](https://github.com/seicoll/gitbook-xml)
+* [Gitbook de JavaScript](https://github.com/seicoll/gitbook-js)
+
+---
+
+Autors: Sergi Coll, Joan Rodríguez Bellido
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Aquesta obra està subjecta a una llicència de <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Reconeixement-NoComercial-CompartirIgual 3.0 No adaptada de Creative Commons</a>
+
+---
+
+[#FpInfor](https://profesinformatica.github.io/FpInfor/) #DamMp04 #DawMp04 #AsixMp04 #XML #HTML #CSS #JavaScript #ERP #Odoo
