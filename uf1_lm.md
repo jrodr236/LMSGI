@@ -39,18 +39,20 @@ Tot i que els sistemes de marques en que ens concentrarem són els d'estil web c
 **Exemple Wikitext:**
 
 ```
-> = Intercanvi de dades =
-* [[ XML ]]
-* [[ JSON ]]
-* [[ LDIF ]]
+You can ''italicize'' text by putting 2 
+apostrophes on ''each'' side. 
+
+3 apostrophes will '''bold''' the text. 
+
+You can put formatting around a link.
+Example: ''[[Wikipedia]]''
 ```
 
 **Exemple JSON:**
 
 ```json
 {
-    "persona":
-    {
+    "persona": {
         "nom": "Sergi",
         "cognom": "Coll"
     }
@@ -99,12 +101,9 @@ Però no és el primer que ha existit, ni l'únic
 
 * Els llenguatges de marques estan **basats en text**.
    * Poden ser **creats i editats** amb qualsevol editor de textos.
-
 * Són fàcilment transportables.
   * La utilització de sistemes de codificació estàndards (UNICODE), fa els documents **fàcilment transportables** entre diferents sistemes (Linux, Windows,etc).
-
 * Però no estan pensats per ser llegits per una persona.
-
 * A diferència d'HTML si que es pot determinar de forma **automàtica** què **signifiquen** les dades.
 
 **Per exemple:**
