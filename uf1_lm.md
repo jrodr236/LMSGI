@@ -80,7 +80,7 @@ El llenguatge de marques més conegut és l'**HTML**, el de les pàgines web.
 ```html
 <html>
     <head>
-    <title> Pàgina </title>
+    <title>Pàgina</title>
     </head>
     <body>
         Hola!
