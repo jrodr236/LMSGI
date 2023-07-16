@@ -134,8 +134,3 @@ Podem comprovar la validesa d'un fitxer JSON amb eines on-line com per exemple:
 * [JSONFormatter](https://jsonformatter.curiousconcept.com/)
 * [JSONViewer](http://jsonviewer.stack.hu/)
 * [JSONLint](https://jsonlint.com/)
-
-## Utilitzant JSON en JavaScript
-
-
-
