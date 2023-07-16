@@ -3,61 +3,19 @@
 ## UF1: programació amb llenguatges de marques
 
 * [Llenguatges de marques](uf1_lm.md) 
-* [XML](uf1_xml.md) // [JSON](json/json.md)
+* [XML](uf1_xml.md) // [JSON](uf1_json.md)
 * [HTML](uf1_html.md)
 * [CSS](uf1_css.md)
 * Validació amb [DTD](uf1_dtd.md), amb [XSD](uf1_xsd.md)
 
-<!--
 
+## UF2: àmbits d'aplicació dels llenguatges de marques
 
-
-### UF2: àmbits d'aplicació dels llenguatges de marques
-
-### JavaScript
-
-* [Introducció](introduccio-a-js.md)
-*  Introducció a JavaScript
-    * [Què es pot fer amb Javascript?](introduccio-a-js/untitled-1.md)
-    * [Incloure codi JS](introduccio-a-js/incloure-codi-js.md)
-    * [Sintaxi del llenguatge](introduccio-a-js/sintaxi-del-llenguatge.md)
-    * [Exercicis bloc 1](introduccio-a-js/exercici-bloc-1.md)
-* Programació bàsica
-    - [Variables i constants](programacio-basica/variables-i-constants.md)
-    * [Operadors](programacio-basica/operadors.md)
-    * [Condicionals i bucles](programacio-basica/condicional-i-bucles.md)
-    * [Exercicis: Condicionals i bucles](programacio-basica/exercicis-condicionals-i-bucles.md)
-* Funcions i esdeveniments
-    - [Funcions](funcions-i-esdeveniments/funcions.md)
-    * [Events](funcions-i-esdeveniments/events.md)
-    * [Exercicis: Funcions i esdeveniments](funcions-i-esdeveniments/exercicis-funcions-i-esdeveniments.md)
-* DOM
-    * [Accés al DOM](dom/acces-al-dom.md)
-    * [Modificació del DOM](dom/modificacio-del-dom.md)
-
-### JSON
-
-* [JSON](json/json.md)
-* [Exercicis](json/exercicis.md)
-
-### AJAX
-
-* [AJAX](ajax/ajax.md)
-
-
-### Serveis Web
-
-* [Serveis Web](serveis-web/serveis-web.md)
-
-### Classes
-* [Classe](classes/classe.md)
-* [Getters i setters](classes/getters-i-setters.md)
-* [Mòduls: export i import](classes/moduls-export-i-import.md)
-
-
+* [JavaScript](uf2_js.md)
+* (...)
 
 ## UF3: sistemes de gestió d'informació empresarial
--->
+* (...)
 
 
 ## Altres recursos
@@ -86,4 +44,4 @@ Autors: Sergi Coll, Josep Masanas, Joan Rodríguez Bellido
 
 ---
 
-[#FpInfor](https://profesinformatica.github.io/FpInfor/) #DamMp04 #DawMp04 #AsixMp04 #XML #HTML #CSS #JavaScript #ERP #Odoo
+[#FpInfor](https://profesinformatica.github.io/FpInfor/) #DamMp04 #DawMp04 #AsixMp04 #XML #HTML #CSS #JavaScript #JSON #ERP #Odoo
