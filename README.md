@@ -2,7 +2,7 @@
 
 ## UF1: programació amb llenguatges de marques
 
-* [Introducció als llenguatges de marques](uf1_intro_lm.md) 
+* [Llenguatges de marques](uf1_lm.md) 
 * [HTML](uf1_html.md)
 * [CSS](uf1_css.md)
 * [XML](uf1_xml.md)

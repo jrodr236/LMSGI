@@ -1,4 +1,4 @@
-# Introducció als llenguatges de marques
+# Llenguatges de marques
 
 ## Compartició d'informació
 
@@ -94,6 +94,53 @@ Però no és el primer que ha existit, ni l'únic
 * **Història del XML:** <http://www.tiki-toki.com/timeline/entry/7339/Histria-del-xHTMLnn/>
 * **Història del HTML:** <http://webdirections.org/history/>
 
+
+## Característiques dels llenguatges de marques
+
+* Els llenguatges de marques estan **basats en text**.
+   * Poden ser **creats i editats** amb qualsevol editor de textos.
+
+* Són fàcilment transportables.
+  * La utilització de sistemes de codificació estàndards (UNICODE), fa els documents **fàcilment transportables** entre diferents sistemes (Linux, Windows,etc).
+
+* Però no estan pensats per ser llegits per una persona.
+
+* A diferència d'HTML si que es pot determinar de forma **automàtica** què **signifiquen** les dades.
+
+**Per exemple:**
+
+**HTML**
+```html
+<html>
+   <head><title>Professors</title></head>
+   <body>
+     <p>Pere Pi</p>
+     <p>Marta Mata</p>
+    <body>
+</html>
+```
+
+**XML**
+```xml
+<professors>
+  <professor>
+    <nom>Pere</nom>
+    <cognom>Pi</cognom>
+  </professor>
+  <professor>
+    <nom>Marta</nom>
+    <cognom>Mata</cognom>
+  </professor>
+</professors>
+```
+
+Es pot determinar automàticament:
+  * Quina informació conté el fitxer?
+  * Quina és l'estructura de la informació?
+  * Quines etiquetes s'han creat per descriure'n la informació?
+
+
+
 ## SGML
 
 > La primera tecnologia estandarditzada de llenguatges de marques va ser l'**SGML**
@@ -105,6 +152,7 @@ Però:
 
 * La majoria dels documents estaven destinats a la **impressió**.
 * Era terriblement **complex** de manera que només el feien servir els especialistes.
+
 
 ## HTML
 

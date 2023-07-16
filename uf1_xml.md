@@ -1,7 +1,7 @@
 # XML
 
 
-## XML (Extensible Markup Language)
+## Introducció
 
 > **XML** és un llenguatge de descripció d'informació.
 
@@ -40,56 +40,13 @@ Una de les idees més importants és:
 * Afegir-hi noves dades pot ser molt problemàtic pel programa que les llegeixi --&gt; Probablement haurem de canviar el programa
 * El format **CSV (Comma separated value)** encara s'utilitza molt en el món de la informàtica, per exportar/importar dades normalment.
    * Es tracta d'enviar la informació utilitzant un caràcter per a separar cada un dels conceptes. Tot i que el nom pugui suggerir que sigui una coma, molts sistemes deixen definir el caràcter a utilitzar (punt i coma, salt de línia,...)
----
 
 
-## Característiques dels llenguatges de marques
 
-* Els llenguatges de marques estan **basats en text**.
-   * Poden ser **creats i editats** amb qualsevol editor de textos.
-
-* Són fàcilment transportables.
-  * La utilització de sistemes de codificació estàndards (UNICODE), fa els documents **fàcilment transportables** entre diferents sistemes (Linux, Windows,etc).
-
-* Però no estan pensats per ser llegits per una persona.
-
-* A diferència d'HTML si que es pot determinar de forma **automàtica** què **signifiquen** les dades.
-
-**Per exemple:**
-
-**HTML**
-```html
-<html>
-   <head><title>Professors</title></head>
-   <body>
-     <p>Pere Pi</p>
-     <p>Marta Mata</p>
-    <body>
-</html>
-```
-
-**XML**
-```xml
-<professors>
-  <professor>
-    <nom>Pere</nom>
-    <cognom>Pi</cognom>
-  </professor>
-  <professor>
-    <nom>Marta</nom>
-    <cognom>Mata</cognom>
-  </professor>
-</professors>
-```
-
-Es pot determinar automàticament:
-  * Quina informació conté el fitxer?
-  * Quina és l'estructura de la informació?
-  * Quines etiquetes s'han creat per descriure'n la informació?
 
 ## Extensible
 
-Un altre dels avantatges de XML és que es fàcilment **extensible i adaptable**:
+Un avantatja de XML és que es fàcilment **extensible i adaptable**:
 
 > XML **no defineix un nombre limitat d'etiquetes**.
  
@@ -160,3 +117,102 @@ Però això a vegades és compensat per:
 
 * Totes les especificacions es revisen periòdicament: <https://www.w3.org/standards/techs/xml#w3c_all>
 
+
+
+## Creació de documents XML
+
+### Declaració de XML
+
+Els documents XML han de començar amb la declaració que indiqui quina versió estem fent servir d'XML.
+
+```xml
+<?xml version="1.0" ?>
+```
+
+Atribut **Encoding** defineix el joc de caràcters que fem servir en el document:
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+```
+
+
+### Regles bàsiques
+
+#### Tots els documents tenen una etiqueta arrel
+
+L'etiqueta arrel és aquella que es defineix després de la declaració del document. 
+
+```xml
+<persona>           <!-- Etiqueta arrel -->
+  <nom>Pere Pi</nom>
+  <nom>Marta Mata</nom>
+</persona>          <!--Tancament etiqueta arrel -->
+```
+
+Aquest no seria un document XML correcte:
+```xml
+  <nom>Pere Pi</nom>
+  <nom>Marta Mata</nom>
+```
+
+#### Totes les etiquetes s'han de tancar
+
+```xml
+<article>Pissarra</article>
+```
+
+No es poden fer coses com les que permet HTML:
+
+```html
+<img src="pissarra.png">
+```
+
+Si tenim una etiqueta sense dades el podem representar amb el tancament `/>`:
+
+```xml
+<article nom="pissarra"/>
+```
+
+#### Les etiquetes han d'estar niades correctament
+
+Cal tancar les etiquetes per l'ordre invers en què s'han obert.
+
+**INCORRECTE**
+```xml
+<inventari>
+  <article>
+    Pissarra
+  </inventari>
+</article>
+```
+Les etiquetes estan tancades en ordre invers i per tant és incorrecte.
+
+#### Les majúscules i minúscules són diferents
+
+Per tant aquestes dues són etiquetes diferents:
+
+```xml
+<article>Pissarra</article>
+<Article>Pissarra</Article>
+```
+
+**I això és incorrecte!**
+
+```xml
+<Article>Pissarra</article>
+```
+
+#### Els valors dels atributs han d'estar entre cometes
+
+Els valors dels **atributs** han d'estar entre **cometes** fins i tot si són números
+
+I no importa si són cometes simples o dobles.
+
+```xml
+<article quantitat="3">Pissarra</article>
+```
+
+**I això és incorrecte:**
+```xml
+<article quantitat=3>Pissarra</article>
+```

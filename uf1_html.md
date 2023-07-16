@@ -803,6 +803,12 @@ Apareixen **barres d'scroll** en el frame si la pàgina és més gran que l'espa
 * Validació de camps:
 <https://lenguajehtml.com/p/html/formularios/validaciones-html5>
 
+
+## Accesibilitat
+
+* [HTML: Una buena base para la accesibilidad](https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML)
+
+
 ## Documentació i recursos
 
 * [Vídeo Història d'Internet](https://www.youtube.com/watch?v=h8K49dD52WA)
