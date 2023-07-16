@@ -1,6 +1,6 @@
 # JSON
 
-> JSON \(**J**ava **S**cript **O**bject **N**otacion**\)** és un format per emmagatzemar i intercanviar dades.
+JSON \(**J**ava **S**cript **O**bject **N**otacion**\)** és un format per emmagatzemar i intercanviar dades.
 
 **JSON** és text, escrit amb sintaxi de JavaScript aprofitant l'ús dels objectes JavaScript.
 
@@ -12,12 +12,13 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 
  L'**extensió** dels fitxers JSON és **`.json`**.
 
-![](../.gitbook/assets/1_vcvipmqmjdbefcqf5f7p9q.png)
+![json logo](https://cdn.icon-icons.com/icons2/2699/PNG/512/json_logo_icon_168490.png)
 
 ## **Sintaxi JSON**
 
-* Les dades s'escriuen com a parelles de **`nom`** i **`valor`**.
-* Per **assignar** valor s'utilitza els dos punts \( **`:`** \)
+Les dades s'escriuen com a parelles de **`nom`** i **`valor`**.
+
+Per **assignar** valor s'utilitza els dos punts \( **`:`** \)
 
 **Exemple:**
 
@@ -27,7 +28,7 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 
 > ⚠️ Els noms JSON requereixen **cometes dobles.**
 
-* Les dades se separen per comes \( **`,`** \)
+Les dades se separen per comes \( **`,`** \)
 
 **Exemple:**
 
@@ -37,7 +38,7 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 
 ## Arrays
 
-> Un **array** es una colección ordenada de valores.
+Un **array** es una colección ordenada de valores.
 
 Els arrays s'envolten de **claudàtors `[ ]`** i cada valor de dins va separat per una coma \( **`,`** \).
 
@@ -97,7 +98,7 @@ Els següents exemples JSON i XML defineixen un objecte d'empleats, amb una matr
 ]}
 ```
 
-**Exemple XML**
+#### Exemple XML
 
 ```javascript
 <employees>

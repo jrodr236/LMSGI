@@ -2,18 +2,21 @@
 
 ## Compartició d'informació
 
-* Les empreses necessiten **compartir** la informació entre elles (factures, comandes, etc).
-* La informació pot estar en **diversos formats** (fulles de càlcul, bases de dades, fitxer pdf, etc.).
+Les empreses necessiten **compartir** la informació entre elles (factures, comandes, etc).
+
+La informació pot estar en **diversos formats** (fulles de càlcul, bases de dades, fitxer pdf, etc.).
 
 **Problema:**
 
-* La informació **no està estructurada**.
-* Fa difícil l'**automatització** d'aquesta informació amb un sistema informàtic.
+La informació **no està estructurada**.
+
+Fa difícil l'**automatització** d'aquesta informació amb un sistema informàtic.
 
 **Solució:**
 
-* **Acordar quin format** o estructura ha tenir la informació.
-* A més, podrem utilitzar **eines estàndards per validar** si el document compleix amb l'especificació acordada.
+**Acordar quin format** o estructura ha tenir la informació.
+
+A més, podrem utilitzar **eines estàndards per validar** si el document compleix amb l'especificació acordada.
 
 ## Els llenguatges de marques
 
@@ -32,12 +35,9 @@ Les marques estan barrejades amb el propi text.
 </persona>
 ```
 
-Tot i que els sistemes de marques en que ens concentrarem són els d'estil web cal no oblidar que n'hi ha d'altres:
+Tot i que els sistemes de marques en que ens concentrarem són els d'estil web cal no oblidar que n'hi ha d'altres, com: Wikitext, TeX, DocBook, RTF, JSON
 
-* Wikitext, TeX, DocBook, RTF, JSON
-
-**Exemple Wikitext:**
-
+### Exemple Wikitext
 ```
 You can ''italicize'' text by putting 2 
 apostrophes on ''each'' side. 
@@ -48,7 +48,7 @@ You can put formatting around a link.
 Example: ''[[Wikipedia]]''
 ```
 
-**Exemple JSON:**
+### Exemple JSON
 
 ```json
 {
@@ -59,7 +59,7 @@ Example: ''[[Wikipedia]]''
 }
 ```
 
-**Exemple yaml**
+### Exemple yaml
 
 ```yaml
 network:
@@ -77,6 +77,8 @@ network:
           - 8.8.8.8
 ```
 
+### Exemple HTML
+
 El llenguatge de marques més conegut és l'**HTML**, el de les pàgines web.
 
 ```html
@@ -90,21 +92,16 @@ El llenguatge de marques més conegut és l'**HTML**, el de les pàgines web.
 </html>
 ```
 
-Però no és el primer que ha existit, ni l'únic
-
-
-* **Història del XML:** <http://www.tiki-toki.com/timeline/entry/7339/Histria-del-xHTMLnn/>
-* **Història del HTML:** <http://webdirections.org/history/>
-
 
 ## Característiques dels llenguatges de marques
 
-* Els llenguatges de marques estan **basats en text**.
-   * Poden ser **creats i editats** amb qualsevol editor de textos.
-* Són fàcilment transportables.
-  * La utilització de sistemes de codificació estàndards (UNICODE), fa els documents **fàcilment transportables** entre diferents sistemes (Linux, Windows,etc).
-* Però no estan pensats per ser llegits per una persona.
-* A diferència d'HTML si que es pot determinar de forma **automàtica** què **signifiquen** les dades.
+Els llenguatges de marques estan **basats en text**. Poden ser **creats i editats** amb qualsevol editor de textos.
+
+Són fàcilment transportables. La utilització de sistemes de codificació estàndards (UNICODE), fa els documents **fàcilment transportables** entre diferents sistemes (Linux, Windows,etc).
+
+Però no estan pensats per ser llegits per una persona.
+
+La majoria permeten determinar de forma **automàtica** què **signifiquen** les dades (HTML no).
 
 **Per exemple:**
 
@@ -134,9 +131,9 @@ Però no és el primer que ha existit, ni l'únic
 ```
 
 Es pot determinar automàticament:
-  * Quina informació conté el fitxer?
-  * Quina és l'estructura de la informació?
-  * Quines etiquetes s'han creat per descriure'n la informació?
+* Quina informació conté el fitxer,
+* Quina és l'estructura de la informació.
+* Quines etiquetes s'han creat per descriure'n la informació.
 
 
 
@@ -148,7 +145,6 @@ Es va fer servir com estàndard de la informació **de propòsit general**.
 Partia de la idea de que s'han de **separar les dades** d'un document **de la seva forma**.
 
 Però:
-
 * La majoria dels documents estaven destinats a la **impressió**.
 * Era terriblement **complex** de manera que només el feien servir els especialistes.
 
@@ -160,8 +156,8 @@ L'any 1989 Tim Berners-Lee i Anders Berglund van crear un llenguatge basat en et
 HTML és un format que descriu la visualització d'una pàgina web.
   
 La web s'ha fet cada vegada més i més popular:
-  * Cada dia es generen milions de pàgines web amb informació.
-  * Això implica que cal buscar per trobar la informació que ens interessa.
+* Cada dia es generen milions de pàgines web amb informació.
+* Això implica que cal buscar per trobar la informació que ens interessa.
 
 ```html
 <html>
@@ -174,7 +170,7 @@ La web s'ha fet cada vegada més i més popular:
 </html>
 ```
 
-**Com pot una màquina determinar automàticament qué és el nom, què és el cognom, ...?**
+En aquest exemple, una màquina no pot determinar automàticament qué és el nom, què és el cognom...
 
 És necessari alguna forma de poder fer-hi recerques intel·ligents i seleccionar-ne el resultats.
 
@@ -193,3 +189,5 @@ El 1996 el consorci W3C es va proposar introduir el poder i la flexibilitat de l
 * Extensibilitat
 * Estructura
 * Validació
+
+D'aquesta manera va néixer l'**XML**.

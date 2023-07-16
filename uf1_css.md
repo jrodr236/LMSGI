@@ -2,7 +2,7 @@
 
 ## Introducció
 
-> Els **Cascading Style Sheets (CSS)** són la forma de donar format a les dades d'un document.
+Els **Cascading Style Sheets (CSS)** són la forma de donar format a les dades d'un document.
 
 Les possibilitats de format de CSS es poden dividir en 3 àrees:
 
@@ -10,7 +10,9 @@ Les possibilitats de format de CSS es poden dividir en 3 àrees:
 * **Distàncies i marcs**
 * **Layout**: modificar la posició dels elements de la pàgina web
 
-Abans que es generalitzés l'ús dels **CSS**, s'utilitzaven etiquetes especials per modificar l'aspecte dels elements d'una pàgina.
+Abans que es generalitzés l'ús dels **CSS**, s'utilitzaven etiquetes especials per modificar l'aspecte dels elements d'una pàgina. 
+
+El següent exemple comporta una sèrie de problemes:
 
 ```html
 <body>
@@ -20,8 +22,7 @@ Abans que es generalitzés l'ús dels **CSS**, s'utilitzaven etiquetes especials
 </body>
 ```
 
-En els sites amb moltes pàgines, els **canvis de formats** de eren **molt laboriosos**.
-* Calia anar element per element, a cada pàgina!!
+En els sites amb moltes pàgines, els **canvis de formats** de eren **molt laboriosos**. Calia anar element per element, a cada pàgina!!
 
 ### Avantatges del CSS
 
@@ -42,27 +43,24 @@ En els sites amb moltes pàgines, els **canvis de formats** de eren **molt labor
 
 Per **aplicar fulles d'estil CSS a HTML** es pot fer a través de tres formes:
 
-* CSS **integrades** en un element HTML5 
-  * Amb l'atribut `style`  en etiquetes html.
+* CSS **integrades** en un element HTML5. Amb l'atribut `style` en etiquetes html.
+* CSS **internes** al document. Amb una etiqueta `<style>`
+* CSS **externes** al document. Amb un arxiu extern .css i utilitzant l'etiqueta `<link>`
 
-* CSS **internes** al document 
-  * Amb una etiqueta `<style>`
-
-
-* CSS **externes** al document 
-  * Amb un arxiu extern .css i utilitzant l'etiqueta `<link>`
+> ℹ️ Per tal de separar l'estil (CSS) del contingut (HTML), nosaltres sempre utilitzarem CSS externes.
 
 
-## CSS integrades en una etiqueta html
+### CSS integrades en una etiqueta html
 
 Permet especificar regles CSS d'una etiqueta HTML.
-> És la forma **menys recomanada** de fer-ho ja que complica la compartició.
+
+És la forma **menys recomanada** de fer-ho ja que complica la compartició.
 
 Es col·loca dins d'una etiqueta de HTML amb l'atribut `style`
 
 ![image](uf1_images/forbidden.jpg)
 
-**Exemple 1: Estil definit per una etiqueta**
+#### Exemple 1: Estil definit per una etiqueta
 
 ```html
 <p style="color:#990000">
@@ -77,7 +75,7 @@ El resultat serà:
 
 ![image](uf1_images/uf1_p_css.png)
 
-**Exemple 2: Estil definit en petites parts d'una pàgina**
+#### Exemple 2: Estil definit en petites parts d'una pàgina
 
 Mitjançant l'etiqueta `<span>` i l'atribut `style`.
 
@@ -92,7 +90,7 @@ El resultat serà:
 
 ![image](uf1_images/uf1_span.png)
 
-**Exemple 3: Estil definit en una part de la pàgina**
+#### Exemple 3: Estil definit en una part de la pàgina
 
 Mitjançant l'etiqueta `<div>` i l'atribut `style`.
 
@@ -109,7 +107,7 @@ El resultat serà:
 
 ![image](uf1_images/uf1_div-css.png)
 
-##  CSS internes al document 
+### CSS internes al document 
 
 * Permet especificar regles **CSS dins del document** HTML.
 * Estil definit s'aplicarà a tota la pàgina HTML.
@@ -158,7 +156,7 @@ El resultat serà:
 
 > **És el millor sistema**. És reaprofitable per totes les pàgines del lloc web.
 
-**Exemple de document CSS:**
+### Exemple de document CSS:
 
 ```css
 p  {
@@ -201,7 +199,7 @@ Un cop tenim creat l'arxiu CSS, l'hem d'**enllaçar** amb les diferents pàgines
 
 ## Regles CSS
 
-> Les **regles CSS** defineixen de quina forma es representaran les diferents etiquetes HTML de la pàgina.
+Les **regles CSS** defineixen de quina forma es representaran les diferents etiquetes HTML de la pàgina.
 
 ![](uf1_images/uf1_css_regles.png)
 
@@ -225,7 +223,7 @@ h1 {
 
 ### Cascada
 
-> La "C" de CSS vol dir "***Cascading***".
+La "C" de CSS vol dir "***Cascading***".
 
 És possible tenir varies definicions d'estil (externes, internes i integrades en etiqueta).
 
@@ -278,18 +276,22 @@ El contingut de les etiquetes h1 es pintarà de color vermell perquè és la **�
 **Exemple:** 
 
 ```css
-body { font-family:arial;
-       color:#FF0000;
-       background-color:#00FF00; }
+body {
+   font-family:arial;
+   color:#FF0000;
+   background-color:#00FF00;
+}
 
-h2 { font-style: italic; }
+h2 {
+   font-style: italic;
+}
 ```
 Definim l'estil del `<body>` i per tant les etiquetes de dins tenen el mateix estil.
 * `h2` a més de les característiques anteriors estarà en cursiva.
 
 ## Comentaris
 
-> CSS permet incloure **comentaris** entre les seves regles.
+CSS permet incloure **comentaris** entre les seves regles.
 
 * Els navegadors ignoraran aquests comentaris.
 * S'indiquen mitjançant els caràcters `/*` i `*/`
@@ -300,7 +302,7 @@ Definim l'estil del `<body>` i per tant les etiquetes de dins tenen el mateix es
 /* Això és un comentari en CSS */
 ```
 
-> **Alerta!** El comentaris s'envien al navegador juntament amb la resta d'estils, per tant no es poden incloure dades confidencials.
+> ⚠️ **Alerta!** El comentaris s'envien al navegador juntament amb la resta d'estils, per tant no es poden incloure dades confidencials.
 
 ## Propietats CSS
 
@@ -328,9 +330,16 @@ Les propietats poden ser agrupades en quatre grans **grups**:
 
 ## Unitats
 
-> En CSS podem fer servir molts **tipus d'unitats**.
+En CSS podem fer servir molts **tipus d'unitats**.
 
 Es poden definir atributs amb els següents formats:
+
+**Valors relatius:**
+* `%` Percentatges
+* `em` (alçada "M")
+* `ex` (alçada "x")
+
+Recomanats, ja que s'adapten millor a diferents mides de pantalla.
 
 **Valors absoluts:**
 
@@ -339,12 +348,6 @@ Es poden definir atributs amb els següents formats:
 * `in` Polzades
 * `pt` Punts (72 punts = 1 polzada)
 
-
-**Valors relatius:**
-
-* `%` Percentatges
-* `em` (alçada "M")
-* `ex` (alçada "x")
 
 **Exemples:**
 
@@ -361,7 +364,7 @@ margin-bottom: 1.5cm;
 
 ## Selectors
 
-> Els **selectors** defineixen quin és l'element de la pàgina que modifiquem des del CSS.
+Els **selectors** defineixen quin és l'element de la pàgina que modifiquem des del CSS.
 
 Disposem de diversos **tipus** de selectors:
 
@@ -375,7 +378,7 @@ Disposem de diversos **tipus** de selectors:
 
 ### Selectors de tipus o etiqueta
 
-> Seleccionen els elements de la pàgina a partir de la seva etiqueta HTML
+Seleccionen els elements de la pàgina a partir de la seva etiqueta HTML
 
 **HTML**
 
@@ -402,7 +405,7 @@ h2 { color: blue; }
 
 ### Selectors de classe (.)
 
-> Els **selectors de classe** seleccionen totes les etiquetes que tinguin el mateix atribut `class`.
+Els **selectors de classe** seleccionen totes les etiquetes que tinguin el mateix atribut `class`.
 
 Serveixen per declarar estils que s'utilitzaran **varies vegades**.
 
@@ -438,7 +441,7 @@ Serveixen per declarar estils que s'utilitzaran **varies vegades**.
 ### Selectors ID (#)
 
 
-> Els **selectors ID** seleccionen qualsevol etiqueta que tingui l'identificador especificat en l'atribut `id`.
+Els **selectors ID** seleccionen qualsevol etiqueta que tingui l'identificador especificat en l'atribut `id`.
 
 Serveixen per declarar estils que s'utilitzaran **UNA SOLA vegada**.
 
@@ -448,7 +451,7 @@ Serveixen per declarar estils que s'utilitzaran **UNA SOLA vegada**.
   <p id="comarca">Garrotxa</p>
 </body>
 ```
- Definim una classe donant-li un nom que podreu utilitzar en qualsevol altra etiqueta.
+Definim una classe donant-li un nom que podreu utilitzar en qualsevol altra etiqueta.
 
 **CSS**
 
@@ -463,12 +466,12 @@ Serveixen per declarar estils que s'utilitzaran **UNA SOLA vegada**.
     <p style="color:red">Garrotxa</p>
 </div>
 
-> El mateix valor en  l'atribut `id` **NO es pot repetir** en dos etiquetes de la pàgina.
+El mateix valor en l'atribut `id` **NO es pot repetir** en dos etiquetes de la pàgina.
 
 
 ### Selectors descendents
 
-> Selecciona les etiquetes que es trobin **dins** (descendents) de una altra d'etiqueta.
+Selecciona les etiquetes que es trobin **dins** (descendents) de una altra d'etiqueta.
 
 
 **HTML**
@@ -562,13 +565,13 @@ p::first-letter { font-size: 200%; }
 </div>
 
 
-> CSS 3 afegeix molts més pseudoelements.
+CSS 3 afegeix molts més pseudoelements.
 
 **Més exemples a**: <http://www.w3schools.com/css/css_pseudo_elements.asp>
 
 ### El selector universal (*)
 
-> Selecciona totes les etiquetes del document.
+Selecciona totes les etiquetes del document.
 
 **HTML**
 
@@ -686,6 +689,7 @@ p { border: 2px solid #000000; }
 Des dels inicis del CSS, el box model (model de caixa) ha funcionat així:
 
 > **width real** visible d’un element de caixa = width + padding + border + margin 
+>
 > **height real** visible d’un element de caixa = height + padding + border + margin
 
 ![image](uf1_images/uf1-box-sizing.png)
@@ -732,7 +736,7 @@ El més corrent són dos comportaments:
 
 ### inline-block
 
-> Els elements inline **no poden tenir amplada**.
+Els elements inline **no poden tenir amplada**.
 
 Per això s'han definit els ***inline-block***.
  
@@ -815,10 +819,8 @@ Es pot posicionar una caixa **en un lloc concret** fent servir `position:absolut
 ![image](uf1_images/uf1-posicionament-absolut.png)
 
 * Treu l'element del fluxe normal.
-
 * L'element ***s'eleva*** i tots els altres elements es comporten com si no hi fos.
   * La resta del contingut no quedarà al voltant sinó que pot quedar per **sota**.
-
 * El posicionament absolut d'un element **fa referència al seu contenidor**.<!--, ja sigui amb *relative*, *absolut* o *fixed*.-->
   * És a dir que `top`, `right`, `bottom` o `left` depenen del seu contenidor.
   * Si no hi ha cap element contenidor, els valos faran referència a l'element més alt de l'estructura HTML (el `body`).

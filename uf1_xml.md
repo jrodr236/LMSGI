@@ -3,9 +3,9 @@
 
 ## Introducció
 
-> **XML** és un llenguatge de descripció d'informació.
+**XML** és un llenguatge de descripció d'informació.
 
-* XML és un format de text estandarditzat que serveix per representar i transportar informació estructurada.
+XML és un format de text estandarditzat que serveix per representar i transportar informació estructurada.
 
 ```xml
 <persona>
@@ -18,17 +18,11 @@
 </persona>
 ```
 
-Una de les idees més importants és:
+Una de les idees més importants és: separar les dades de la presentació
 
-> Separar les dades de la presentació
+XML no es preocupa de com es presentaran les dades als usuaris. Per fer la presentació ja s'han desenvolupat mecanismes: **CSS**, **XSL-FO**, etc.
 
-  * XML no es preocupa de com es presentaran les dades als usuaris
-  * Per fer la presentació ja s'han desenvolupat mecanismes:
-    *  **CSS**, **XSL-FO**, etc.
-
-
----
-* Antigament per representar dades es feia separant els valors amb comes o algun altre símbol
+Antigament per representar dades es feia separant els valors amb comes o algun altre símbol
 
 ```
 "Nom","Cognom","Ofici","Naixament","Poblacio","Punts"
@@ -36,10 +30,13 @@ Una de les idees més importants és:
 "Marta","Mata","Inforàtica","19/05/1990","Girona",20
 ```
 
-* S'ha de saber que la primera línia són metadades
-* Afegir-hi noves dades pot ser molt problemàtic pel programa que les llegeixi --&gt; Probablement haurem de canviar el programa
-* El format **CSV (Comma separated value)** encara s'utilitza molt en el món de la informàtica, per exportar/importar dades normalment.
-   * Es tracta d'enviar la informació utilitzant un caràcter per a separar cada un dels conceptes. Tot i que el nom pugui suggerir que sigui una coma, molts sistemes deixen definir el caràcter a utilitzar (punt i coma, salt de línia,...)
+S'ha de saber que la primera línia són metadades
+
+Afegir-hi noves dades pot ser molt problemàtic pel programa que les llegeixi --&gt; Probablement haurem de canviar el programa
+
+El format **CSV (Comma separated value)** encara s'utilitza molt en el món de la informàtica, per exportar/importar dades normalment.
+
+Es tracta d'enviar la informació utilitzant un caràcter per a separar cada un dels conceptes. Tot i que el nom pugui suggerir que sigui una coma, molts sistemes deixen definir el caràcter a utilitzar (punt i coma, salt de línia,...)
 
 
 
@@ -48,14 +45,14 @@ Una de les idees més importants és:
 
 Un avantatja de XML és que es fàcilment **extensible i adaptable**:
 
-> XML **no defineix un nombre limitat d'etiquetes**.
+XML **no defineix un nombre limitat d'etiquetes**.
  
 Podem crear les etiquetes (tags) que tinguin significat per nosaltres.
 Podem crear el vocabulari que ens faci falta per allò que busquem.
 
 A més, hi ha formes de definir quina és la **estructura** que nosaltres definim.
-  * Hi ha diversos estàndards ***DTD***, ***XML Schema Language***, ***Relax NG***, etc..
-  * Ens serviran per comprovar que el document compleix amb les normes del vocabulari.
+
+Hi ha diversos estàndards ***DTD***, ***XML Schema Language***, ***Relax NG***, etc... Ens serviran per comprovar que el document compleix amb les normes del vocabulari.
 
 ## Formats Estàndards
 
@@ -90,17 +87,17 @@ XML s'està fent servir en múltiples camps:
   ```
 
   **Windows**
-  ```bash
+  ```cmd
   C:\> dir /a-d /s *.xml | find /c /v “”
   698
   ```
 
 ## Desavantatges de XML
 
-* Els fitxers XML tendeixen a ocupar molt d'espai.
-  * XML ocupa més espai a disc que els seus equivalents en format binari. 
-  * Lentitud en el temps de càrrega.
-  * Temps de transferència més elevat.
+Els fitxers XML tendeixen a ocupar molt d'espai.
+* XML ocupa més espai a disc que els seus equivalents en format binari. 
+* Lentitud en el temps de càrrega.
+* Temps de transferència més elevat.
 
 Però això a vegades és compensat per:
 
@@ -109,13 +106,13 @@ Però això a vegades és compensat per:
 
 ## Versions
 
-* El febrer de 1998 es llença l'especificació **1.0 d'XML**: <http://www.w3.org/TR/2004/REC-xml-20040204/>
+El febrer de 1998 es llença l'especificació **1.0 d'XML**: <http://www.w3.org/TR/2004/REC-xml-20040204/>
 
-* L'ultima especificació d'**XML és la 1.1** que va sortir el 2004: <http://www.w3.org/TR/xml11/>
+L'ultima especificació d'**XML és la 1.1** que va sortir el 2004: <http://www.w3.org/TR/xml11/>
 
-* Però d'alguna manera s'ha millorat la 1.0 en posterioritat (2008): <https://www.w3.org/TR/2008/REC-xml-20081126/>
+Però d'alguna manera s'ha millorat la 1.0 en posterioritat (2008): <https://www.w3.org/TR/2008/REC-xml-20081126/>
 
-* Totes les especificacions es revisen periòdicament: <https://www.w3.org/standards/techs/xml#w3c_all>
+Totes les especificacions es revisen periòdicament: <https://www.w3.org/standards/techs/xml#w3c_all>
 
 
 
