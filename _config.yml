@@ -4,4 +4,4 @@ plugins:
 
 title: ["LMSGI"]
 description: ["Llenguatges de marques i sistemes de gestió d'informació - DAW, DAM, ASIX"]
-show_downloads: [false]
+show_downloads: ["false"]
