@@ -508,10 +508,9 @@ Apareixen **barres d'scroll** en el frame si la pàgina és més gran que l'espa
 
 ## Formularis
 
-[Creació de formularis](https://docs.google.com/presentation/d/1fZ1F4p_dvXShnL7GVNHEygFBxDvgslEW9AuTi4rE5f4/edit?usp=sharing) 
+Creació de formularis: [Llibre electrònic d'en Miquel Boada](https://miquelboada.gitbooks.io/html-forms/).
 
-Validació de camps:
-<https://lenguajehtml.com/p/html/formularios/validaciones-html5>
+Validació de camps: [lenguajehtml.com](https://lenguajehtml.com/p/html/formularios/validaciones-html5)
 
 
 ## Accesibilitat

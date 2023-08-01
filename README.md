@@ -20,6 +20,11 @@
 
 ## Altres recursos
 * W3Schools [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) & [JavaScript](https://www.w3schools.com/js/) tutorials.
+* Miquel Boada:
+  - [introducció](https://miquelboada.gitbooks.io/llenguatges-de-marques-introduccio/content/),
+  - [XML](https://miquelboada.gitbooks.io/llenguatges-de-marques-introduccio/),
+  - [HTML](https://miquelboada.gitbooks.io/llenguatges-de-marques-aplicats-a-la-web/),
+  - [formularis HTML](https://miquelboada.gitbooks.io/html-forms/).
 * [IOC](https://ioc.xtec.cat/materials/FP/Recursos/fp_asx_m04_/web/fp_asx_m04_htmlindex/)
 * [Fernando Porrino Serrano](https://www.youtube.com/@fernandoporrinoserrano4822/playlists)
 * [jg5.dev](https://sites.google.com/xtec.cat/jgregor5/asix-m4)
@@ -32,9 +37,11 @@
 * [JorgeSanchez.net](http://jorgesanchez.net/lmsgi)
 
 ---
+
 Material basat en:
 * Llibres electrònics d'en Sergi coll d'[XML](https://sergi-coll.gitbook.io/xml/) i [JavaScript](https://sergi-coll.gitbook.io/javascript/)
 * Teoria de Llenguatge de Marques d'en Josep Masanas.
+
 
 ---
 
