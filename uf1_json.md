@@ -12,7 +12,7 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 
  L'**extensió** dels fitxers JSON és **`.json`**.
 
-![json logo](https://cdn.icon-icons.com/icons2/2699/PNG/512/json_logo_icon_168490.png)
+![json logo](https://i0.wp.com/dbaontap.com/wp-content/uploads/2015/11/json-logo.png?resize=300%2C143&ssl=1)
 
 ## **Sintaxi JSON**
 
@@ -103,13 +103,16 @@ Els següents exemples JSON i XML defineixen un objecte d'empleats, amb una matr
 ```javascript
 <employees>
   <employee>
-    <firstName>John</firstName> <lastName>Doe</lastName>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
   </employee>
   <employee>
-    <firstName>Anna</firstName> <lastName>Smith</lastName>
+    <firstName>Anna</firstName>
+    <lastName>Smith</lastName>
   </employee>
   <employee>
-    <firstName>Peter</firstName> <lastName>Jones</lastName>
+    <firstName>Peter</firstName>
+    <lastName>Jones</lastName>
   </employee>
 </employees>
 ```
@@ -135,3 +138,8 @@ Podem comprovar la validesa d'un fitxer JSON amb eines on-line com per exemple:
 * [JSONFormatter](https://jsonformatter.curiousconcept.com/)
 * [JSONViewer](http://jsonviewer.stack.hu/)
 * [JSONLint](https://jsonlint.com/)
+
+Tot i que hi han editors o IDEs que, directament o afegint plugins, també ens permeten fer aquesta validació.
+
+Però si, a més, ens volem assegurar que compleix una determinada estructura, podem fer servir:
+* [JSON Schema](https://json-schema.org/)

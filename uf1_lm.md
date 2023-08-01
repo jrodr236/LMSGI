@@ -27,10 +27,10 @@ Les marques estan barrejades amb el propi text.
 ```xml
 <persona>
     <nom>
-        Sergi
+        Jordina
     </nom>
     <cognom>
-        Coll
+        Camps
     </cognom>
 </persona>
 ```
@@ -53,8 +53,8 @@ Example: ''[[Wikipedia]]''
 ```json
 {
     "persona": {
-        "nom": "Sergi",
-        "cognom": "Coll"
+        "nom": "Jordina",
+        "cognom": "Camps"
     }
 }
 ```

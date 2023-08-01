@@ -10,10 +10,10 @@ XML és un format de text estandarditzat que serveix per representar i transport
 ```xml
 <persona>
     <nom>
-        Sergi
+        Jordina
     </nom>
     <cognom>
-        Coll
+        Camps
     </cognom>
 </persona>
 ```
@@ -88,7 +88,7 @@ XML s'està fent servir en múltiples camps:
 
   **Windows**
   ```cmd
-  C:\> dir /a-d /s *.xml | find /c /v “”
+  C:\> dir /a-d /s *.xml | find /c /v ""
   698
   ```
 
