@@ -332,4 +332,4 @@ alert("Hi JS developers");
 
 ## Altres aspectes
 
-https://github.com/seicoll/gitbook-js/blob/master/SUMMARY.md
+https://sergi-coll.gitbook.io/javascript/

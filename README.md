@@ -31,7 +31,7 @@
 
 ---
 Material basat en:
-* Llibres electrònics d'en Sergi coll d'[XML](https://github.com/seicoll/gitbook-xml) i [JavaScript](https://github.com/seicoll/gitbook-js)
+* Llibres electrònics d'en Sergi coll d'[XML](https://sergi-coll.gitbook.io/xml/) i [JavaScript](https://sergi-coll.gitbook.io/javascript/)
 * Teoria de Llenguatge de Marques d'en Josep Masanas.
 
 ---
