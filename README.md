@@ -1,4 +1,6 @@
-# UF1: programació amb llenguatges de marques
+# Llenguatges de marques i sistemes de gestió d'informació
+
+## UF1: programació amb llenguatges de marques
 
 * [Llenguatges de marques](uf1_lm.md) 
 * [XML](uf1_xml.md) // [JSON](uf1_json.md)
@@ -16,7 +18,7 @@
 * (...)
 -->
 
-# Altres recursos
+## Altres recursos
 * W3Schools [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) & [JavaScript](https://www.w3schools.com/js/) tutorials.
 * [IOC](https://ioc.xtec.cat/materials/FP/Recursos/fp_asx_m04_/web/fp_asx_m04_htmlindex/)
 * [Fernando Porrino Serrano](https://www.youtube.com/@fernandoporrinoserrano4822/playlists)
