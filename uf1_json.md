@@ -14,16 +14,18 @@ Actualment està superant l'ús del **XML** en aplicacions web, gràcies a la **
 
 ![json logo](https://i0.wp.com/dbaontap.com/wp-content/uploads/2015/11/json-logo.png?resize=300%2C143&ssl=1)
 
-## **Sintaxi JSON**
+A JSON existeixen dos tipus d'elements: objectes i arrays.
 
-Les dades s'escriuen com a parelles de **`nom`** i **`valor`**.
+## **Objectes**
+
+Els objectes s'escriuen com a parelles de **`nom`** i **`valor`**.
 
 Per **assignar** valor s'utilitza els dos punts \( **`:`** \)
 
 **Exemple:**
 
-```javascript
-{ "name":"John" } 
+```json
+{ "name": "John" } 
 ```
 
 > ⚠️ Els noms JSON requereixen **cometes dobles.**
@@ -32,19 +34,30 @@ Les dades se separen per comes \( **`,`** \)
 
 **Exemple:**
 
-```javascript
+```json
+{
+  "name" : "John",
+  "surname" : "Smith"
+} 
+```
+
+Els espais en blanc i salts de línia no són significatius.
+
+**Exemple:**
+
+```json
 { "name" : "John" , "surname" : "Smith" } 
 ```
 
 ## Arrays
 
-Un **array** es una colección ordenada de valores.
+Un **array** es una llista (col·lecció ordenada) de valors.
 
 Els arrays s'envolten de **claudàtors `[ ]`** i cada valor de dins va separat per una coma \( **`,`** \).
 
 **Exemple:**
 
-```javascript
+```json
 {
     "name":"John",
     "age":30,
@@ -56,7 +69,7 @@ Un valor d'un array també potser un objecte **JSON**.
 
 **Exemple**:
 
-```javascript
+```json
 {"students": 
     [
         {"firstName":"Tom" , "lastName":"Jackson"} ,
@@ -72,7 +85,7 @@ Els valors d'un **array** també poden ser **altres arrays**:
 
 **Exemple:**
 
-```javascript
+```json
 {
   "name":"John",
   "age":30,
@@ -90,7 +103,7 @@ Els següents exemples JSON i XML defineixen un objecte d'empleats, amb una matr
 
 #### Exemple JSON 
 
-```javascript
+```json
 {"employees":[
   { "firstName":"John", "lastName":"Doe" },
   { "firstName":"Anna", "lastName":"Smith" },
@@ -100,7 +113,7 @@ Els següents exemples JSON i XML defineixen un objecte d'empleats, amb una matr
 
 #### Exemple XML
 
-```javascript
+```xml
 <employees>
   <employee>
     <firstName>John</firstName>
