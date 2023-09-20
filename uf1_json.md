@@ -18,7 +18,7 @@ A JSON existeixen dos tipus d'elements: objectes i arrays.
 
 ## **Objectes**
 
-Els objectes s'escriuen com a parelles de **`nom`** i **`valor`**.
+Els objectes s'escriuen com a parelles de **`clau`** i **`valor`**.
 
 Per **assignar** valor s'utilitza els dos punts \( **`:`** \)
 
@@ -28,7 +28,7 @@ Per **assignar** valor s'utilitza els dos punts \( **`:`** \)
 { "name": "John" } 
 ```
 
-> ⚠️ Els noms JSON requereixen **cometes dobles.**
+> ⚠️ Les claus a JSON requereixen **cometes dobles.**
 
 Les dades se separen per comes \( **`,`** \)
 
