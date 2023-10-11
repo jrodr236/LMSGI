@@ -45,7 +45,7 @@ Amb **xmllint** ho podem fer amb `valid`:
 $ xmllint --noout --valid exercici.xml
 ```
 
-També es pot fer amb el programa **XML Copy Editor**, etc...
+També es pot fer amb el programa **XML Copy Editor**, VS Code amb l'extensió d'XML, etc...
 
 ![image](uf1_images/xmlcopyeditor.png)
 
@@ -103,14 +103,15 @@ Per definir un **DTD extern** que s'utilitza fent servir l'etiqueta `DOCTYPE` di
 <!DOCTYPE alumnes SYSTEM "alumnes.dtd">
 ```
 
-![image](/uf1_images/uf1-doctype.png)
+![image](uf1_images/uf1-doctype.png)
 
 I després només hem de crear el DTD extern en el lloc adequat:
 
 ```dtd
+<!ELEMENT alumnes (persona*)>
+<!ELEMENT persona (nom,cognom)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT cognom (#PCDATA)>
-<!ELEMENT persona (nom,cognom)>
 ```
 
 <!--

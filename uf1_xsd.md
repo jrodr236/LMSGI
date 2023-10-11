@@ -25,7 +25,7 @@ $ xmllint --noout --schema ./exercici.xsd exercici.xml
 exercici.xml validates
 ```
 
-També es pot fer amb **XML Copy Editor**, Sublime, Notepad++, etc.
+També es pot fer amb **XML Copy Editor**, Sublime, Notepad++, VS Code amb l'extensió d'XML, etc.
 
 ## Associar l'esquema a un fitxer XML
 
@@ -45,7 +45,7 @@ El lloc on està el fitxer també pot ser una **URL**:
 
 `xsi:SchemaLocation="http://www.lloc.com/fitxer.xsd"`
 
-###En l'associació hi definim:
+En l'associació hi definim:
 
 - On es defineix l'esquema dins de l'estàndard:
 
