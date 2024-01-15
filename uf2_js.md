@@ -34,7 +34,7 @@ Tecnologies que s'executen al servidor.
 
 * **Javascript** és el que es coneix com un llenguatge de **script.**
   * És un codi inserit en un document
-* Javascript és **interpretat** directament pel navegador.\
+* Javascript és **interpretat** directament pel navegador.
 * JavaScript i Java: diferents llenguatges, sintaxi semblant.
 
 ### Història
@@ -76,7 +76,7 @@ Tecnologies que s'executen al servidor.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_intro\_inner\_html)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html)
 
 ### Canviar valors d'atributs
 
@@ -101,7 +101,7 @@ Tecnologies que s'executen al servidor.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_intro\_lightbulb)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb)
 
 ### Canviar estils
 
@@ -121,7 +121,7 @@ Tecnologies que s'executen al servidor.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_intro\_style)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style)
 
 ### Ocultar elements
 
@@ -141,7 +141,7 @@ Tecnologies que s'executen al servidor.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_intro\_hide)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide)
 
 ### Mostrar elements
 
@@ -162,7 +162,7 @@ Tecnologies que s'executen al servidor.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_intro\_show)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show)
 
 Fixa't en dos aspectes importants:
 
@@ -203,9 +203,9 @@ Es recomana la definició del codi en la capçalera del document **`<head>`**.
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_whereto\_head)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_head)
 
-**Inconvenients:**
+#### Inconvenients
 
 * Una modificació del codi requereix **modificar totes les pàgines** que inclouen el bloc de codi.
 
@@ -230,9 +230,9 @@ function myFunction() {
 </html>
 ```
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_whereto\_body)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_body)
 
-**Inconvenients:**
+#### Inconvenient
 
 * Embruta innecessàriament el codi HTML de la pàgina i **dificulta molt el manteniment** del codi Javascript.
 
@@ -268,15 +268,13 @@ function myFunction() {
 ```
 
 
-[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs\_whereto\_external)
+[Demo](https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_external)
 
 * Cada etiqueta **`<script>`** només pot enllaçar un únic arxiu.
 * En una mateixa pàgina es poden incloure tantes etiquetes _`<script>`_ com siguin necessàries.
 * Els arxius de tipus JavaScript són documents de text amb extensió **.js**.
 
-****
-
-##### Avantatges <a href="#avantatges" id="avantatges"></a>
+#### Avantatges
 
 * Separa HTML i del codi Javascript.
 * Fa que l’HTML i el JavaScript siguin més fàcil de llegir i mantenir
@@ -332,4 +330,8 @@ alert("Hi JS developers");
 
 ## Altres aspectes
 
-https://sergi-coll.gitbook.io/javascript/
+[GitBook d'en Sergi Coll](https://sergi-coll.gitbook.io/javascript/):
+- [Variables i constants](https://sergi-coll.gitbook.io/javascript/programacio-basica/variables-i-constants)
+- [Operadors](https://sergi-coll.gitbook.io/javascript/programacio-basica/operadors)
+- [Condicionals i bucles](https://sergi-coll.gitbook.io/javascript/programacio-basica/condicional-i-bucles)
+- ...
