@@ -8,10 +8,12 @@
 * [CSS](uf1_css.md)
 * Validació amb [DTD](uf1_dtd.md), amb [XSD](uf1_xsd.md)
 
-<!--
+
 ## UF2: àmbits d'aplicació dels llenguatges de marques
 
 * [JavaScript](uf2_js.md)
+
+<!--
 * [XPATH](uf2_xpath.md), [XQUERY](uf2_xquery.md), [XSLT](uf2_xslt.md)
 
 ## UF3: sistemes de gestió d'informació empresarial
