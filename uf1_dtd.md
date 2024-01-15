@@ -7,33 +7,25 @@
 ## Què és el DTD?
 
 
-> El **DTD** (*Document Type Definitions*) és una forma de definir l'estructura i les etiquetes vàlides en un document XML.
+El **DTD** (*Document Type Definitions*) és una forma de definir l'estructura i les etiquetes vàlides en un document XML.
  
-* És la forma de definició d'esquemes que va sortir primer.
-  * Va sorgir en el temps del **SGML**
+És la forma de definició d'esquemes que va sortir primer (al 1998), en el temps del **SGML**.
 
-L'**objectiu principal** dels DTD és permetre validar les estructures dels documents XML.
-  * El document XML es comprovarà amb l'esquema DTD.
+L'**objectiu principal** dels DTD és permetre validar les estructures dels documents XML: el document XML es comprovarà amb l'esquema DTD.
 
-> **Hi poden haver documents ben formats que no siguin vàlids**.
+**Hi poden haver documents ben formats que no siguin vàlids**.
 
-El DTD pot ser compartit entre organitzacions o, fins i tot, definir-lo com a estàndard públic.
-  * Això permetrà conèixer les especificacions que defineixen un vocabulari concret.
+El DTD pot ser compartit entre organitzacions o, fins i tot, definir-lo com a estàndard públic. Això permetrà conèixer les especificacions que defineixen un vocabulari concret.
 
 ## Limitacions del DTD
 
 * El DTD **no** és un llenguatge XML: Això obliga a aprendre dos llenguatges en comptes d'un!
-* Pot ser que no puguem fer-hi tot el que ens faci falta: 
-  * DTD no pot fer comprovacions del contingut de dades:
-
-  ```xml
-  <data>.</data>
-  ```
+* DTD no pot fer comprovacions del contingut de dades:
+    ```xml
+    <data>.</data>
+    ```
     * No pot comprovar que és una data correcte.
-
-
-* Podria fer falta definir restriccions en el document però amb DTD no es pot: 
-  * Per exemple una data entre 1970 i 2032.
+    * Podria fer falta definir restriccions en el document però amb DTD no es pot. Per exemple una data entre 1970 i 2032.
 
 Encara hi ha molts documents XML que es validen amb DTD (tot i que té les seves limitacions).
 
@@ -74,13 +66,14 @@ Es poden incorporar DTD **dins dels documents XML**:
     <adress>http://www.boscdelacoma.cat</adress>
 </process>
 ```
-
-* Tot i que es pot fer és millor fer-los externs.
-* Definir-los externament permet compartir-los més fàcilment i a més:
-
-> Separa les dades de la estructura.
+És millor fer-los externs.
 
 #### Definició de DTD Externa
+
+Definir-lo externament:
+* Permet compartir-los més fàcilment
+* Separa les dades de la estructura.
+
 
 Per definir un **DTD extern** que s'utilitza fent servir l'etiqueta `DOCTYPE` dins del document XML:
 
@@ -161,11 +154,11 @@ S'han de definir tots els **elements** que formen el document:
 <!ELEMENT nom (contingut) >
 ```
 
-En el `contingut` és on definirem completament l'estructura del document XML:
+En el **contingut** és on definirem completament l'estructura del document XML:
 
 * Si hi ha dades 
 * Si conté altres etiquetes 
-* Etc.
+* etc.
 
 ![image](uf1_images/uf1-dtd-etiquetes.png)
 
