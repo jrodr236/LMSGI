@@ -15,10 +15,13 @@
 
 <!--
 * [XPATH](uf2_xpath.md), [XQUERY](uf2_xquery.md), [XSLT](uf2_xslt.md)
+-->
 
 ## UF3: sistemes de gestió d'informació empresarial
-* (...)
--->
+* [Presentació](uf3-0-presentacio-de-la-uf3.pdf) - [markdown](uf3-0-presentacio-de-la-uf3.md)
+* [Conceptes teòrics](uf3-1-1-conceptes-teorics.pdf) - [markdown](uf3-1-1-conceptes-teorics.md)
+* [Tasca: investigació](uf3-1-2-investigacio.md)
+
 
 ## Altres recursos
 * W3Schools [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) & [JavaScript](https://www.w3schools.com/js/) tutorials.
